@@ -47,6 +47,14 @@ router.get('/docs/fun', (req, res) => {
 	res.sendFile(__path + '/api/fun.html')
 })
 
+router.get('/users/login', (req, res) => {
+	res.sendFile(__path + '/docs/login.php')
+})
+
+router.get('/users/Register', (req, res) => {
+	res.sendFile(__path + '/docs/Register.php')
+})
+
 router.get('/config', (req, res) => {
     config = {
         status: true,
