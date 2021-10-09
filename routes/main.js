@@ -51,7 +51,7 @@ router.get('/users/login', (req, res) => {
 	res.sendFile(__path + '/docs/login.php')
 })
 
-router.get('/users/Register', (req, res) => {
+router.get('/users/register', (req, res) => {
 	res.sendFile(__path + '/docs/Register.php')
 })
 
